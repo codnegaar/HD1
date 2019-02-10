@@ -1,0 +1,3 @@
+stuff = 'Hello World'
+new_one = stuff.replace('World', 'Reza')
+print(new_one)
