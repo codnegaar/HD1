@@ -1,3 +1,10 @@
-stuff = 'Hello World'
+stuff = '   Hello World     '
 new_one = stuff.replace('World', 'Reza')
 print(new_one)
+stuff.lstrip()
+print(stuff)
+stuff.rstrip()
+print(stuff)
+stuff.strip()
+print(stuff)
+
