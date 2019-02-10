@@ -1,0 +1,9 @@
+data = 'from my.frind@college.com to me'
+atposition = data.find('@')
+print(atposition)
+
+endposition = data.find(' ', atposition)
+print(endposition)
+
+host = data[atposition + 1 : endposition]
+print(host)
